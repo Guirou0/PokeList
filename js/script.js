@@ -145,6 +145,5 @@ shiny_slider.addEventListener("click", (e) => {
     page !=65? renderPokemons(10,10*(page-1)): renderPokemons(9, 10*(page-1));
 })
 
-console.log("Init \n");
 renderPokemons(10,0);
 renderPagination(1);
