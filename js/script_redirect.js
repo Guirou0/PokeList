@@ -1,7 +1,6 @@
 const params = new URLSearchParams(window.location.search);
 const pokemon = params.get('pokemon');
 
-//const pokemon = 149;
 let shiny = false;
 
 const cores = {
@@ -86,9 +85,8 @@ const renderSprite = (poke) => {
     gif2.style.display = "none";
     gif1.src = IMG_URL+String(poke)+".gif";
     gif2.src = IMG_URL+"shiny/"+String(poke)+".gif";
-    setInterval(function(poke) {
+    setInterval(function() {
         if (shiny == true){
-            console.log("Opa")
             gif2.style.display = "none";
             gif1.style.display = "block";
             shiny = false;

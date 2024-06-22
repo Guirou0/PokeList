@@ -81,7 +81,16 @@ main{
     flex-wrap: wrap;
     padding: 1%;
     gap: 1%;
-    overflow: scroll;
+    overflow-y: scroll;
+}
+
+.ataques::-webkit-scrollbar{
+    width: 15px;
+}
+
+.ataques::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: #DC143C;
 }
 
 .habilidade{
@@ -382,6 +391,14 @@ main{
         width: 100%;
         height: 100%;
         border-radius: 0;
+    }
+    main::-webkit-scrollbar{
+        width: 15px;
+    }
+    
+    main::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        background: #000;
     }
     .stats, .carac, .columm{
         width: 100%;
