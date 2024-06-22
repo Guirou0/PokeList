@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style_redirect.css"/>
+    <script defer src="./js/script_redirect.js"></script>
+    <link rel="icon" type="image/png" sizes="500x500" href="./images/icon.png">
+
+    <title>Dados do Pokemon</title>
+</head>
+<body>
+    <div class="info">
+        <img src="./images/icon.png" alt="Pokelist" class="imginfo"/>
+        <span class="textinfo">Pokelist</span>
+    </div>
+    
+    <main class="main">
+        <div class="columm">
+            <div class="ability">
+                <span class="name">Habilidades</span>
+                <div class="habilidades">
+                    <div class="habilidade">
+                        <span class="nome_habilidade">Sturdy</span> <span class="tipo_habilidade">Hidden</span>
+                    </div>
+                    <div class="habilidade">
+                        <span class="nome_habilidade">Sturdy</span> <span class="tipo_habilidade">Hidden</span>
+                    </div>
+                    <div class="habilidade">
+                        <span class="nome_habilidade">Sturdy</span> <span class="tipo_habilidade">Hidden</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="moves">
+                <span class="name">Ataques disponíveis</span>
+                <div class="ataques">
+                        <span class="nome_ataque">Fire Spin</span> 
+                        <span class="nome_ataque">Upperkick</span> 
+                        <span class="nome_ataque">Fly</span>
+                        <span class="nome_ataque">Fire Spin</span> 
+                        <span class="nome_ataque">Upperkick</span> 
+                        <span class="nome_ataque">Fly</span> 
+                        <span class="nome_ataque">Fire Spin</span> 
+                        <span class="nome_ataque">Upperkick</span> 
+                        <span class="nome_ataque">Fly</span>  
+                </div>
+            </div>
+        </div>
+
+        <div class="stats">
+            <span class="name">Status base</span>
+            <div class="status">
+                <div class="stat">
+                    <span class="nome_stat">Pontos de Vida</span>
+                    <div class="stat_bar">
+                        <div class="hp" id="hp"></div>
+                    </div>   
+                </div>
+                <div class="stat">
+                    <span class="nome_stat">Ataque</span>
+                    <div class="stat_bar">
+                        <div class="attack" id="attack"></div>
+                    </div>  
+                </div>
+                <div class="stat">
+                    <span class="nome_stat">Defesa</span>
+                    <div class="stat_bar">
+                        <div class="defense" id="defense"></div>
+                    </div>  
+                </div>
+                <div class="stat">
+                    <span class="nome_stat">Ataque Especial</span>
+                    <div class="stat_bar">
+                        <div class="special-attack" id="special-attack"></div>
+                    </div>  
+                </div>
+                <div class="stat">
+                    <span class="nome_stat">Defesa Especial</span>
+                    <div class="stat_bar">
+                        <div class="special-defense" id="special-defense"></div>
+                    </div>  
+                </div>
+                <div class="stat">
+                    <span class="nome_stat">Velocidade</span>
+                    <div class="stat_bar">
+                        <div class="speed" id="speed"></div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+
+        <div class="carac">
+            <span class="name">Características</span>
+            <div class ="content">
+                <div class="sprite">
+                    <img class="poke-gif" id="poke-gif1" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif" alt="Sprite do pokemon" width="70%" height="80%">
+                    <img class="poke-gif" id="poke-gif2" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/6.gif" alt="Sprite do pokemon" width="70%" height="80%">
+                </div>
+                <div class="number-name">
+                    <span class="numero">6</span> <span class="nome">Charizard</span>
+                </div>
+                <div class="types">
+                    <div class="type1" id="type1">Fire</div>
+                    <div class="type2" id="type2">Flying</div>
+                </div>
+                <button class="cry">Som do pokémon</button>
+                <span class="weight">80</span>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
