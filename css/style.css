@@ -56,6 +56,11 @@ main{
     border-radius: 10px;
     border: 3px solid #000;
     cursor: pointer;
+    transition: gap 0.5s;
+}
+
+.pokemon:hover{
+    gap: 8%;
 }
 
 .image{
@@ -87,11 +92,14 @@ main{
 .types{
     display: flex;
     gap: 5%;
+    justify-content: center;
+
 }
 
 .type1, .type2{
     text-transform: capitalize;
     padding: 5%;
+    
 }
 
 .pagination{
@@ -284,17 +292,30 @@ input:checked + .slider::before{
         flex-wrap: wrap;
         overflow: scroll;
         list-style-type: none;
+        overflow-x: hidden;
+    }
+    .lista::-webkit-scrollbar{
+        width: 10px;
+    }
+    .lista::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        background: #DC143C;
+        border: 2px solid #000;
     }
     .pokemon{
         width: 100%;
         padding-top: 3%;
         gap: 7%;
     }
+    .pokemon:hover{
+        gap: 9%;
+    }
     .poke-name{
         font-size: 5vw;
     }
     .type1,.type2{
         padding: 10%;
+        font-size: 3vw;
     }
     .pagination{
         width: 70%;

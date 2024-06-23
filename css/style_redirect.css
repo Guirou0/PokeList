@@ -91,6 +91,7 @@ main{
 .ataques::-webkit-scrollbar-thumb{
     border-radius: 10px;
     background: #DC143C;
+    border: 2px solid #000;
 }
 
 .habilidade{
@@ -300,7 +301,7 @@ main{
     background-image: url(/icons/fairy.svg);
     background-repeat: no-repeat;
     background-position: 5%;
-    background-size: contain;
+    background-size: 15%;
     padding-left: 12%;
     border: 2px solid #000;
     text-transform: capitalize;
@@ -398,10 +399,18 @@ main{
     
     main::-webkit-scrollbar-thumb{
         border-radius: 10px;
-        background: #000;
+        background: #DC143C;
+        border: 2px solid #000;
+
     }
     .stats, .carac, .columm{
         width: 100%;
+    }
+    .type1, .type2{
+        background-size: 10%;
+    }
+    .carac{
+        padding-bottom: 10px;
     }
     .nome_habilidade, .tipo_habilidade, .nome_ataque, .nome_stat, .name, .sprite::before, .numero, .nome, .types, .cry, .weight{
         font-size: 3vw;
