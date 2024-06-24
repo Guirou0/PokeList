@@ -66,9 +66,12 @@ main{
 .image{
     background-image: linear-gradient(white,#DEB887);
     width: 75%;
+    height: 50%;
     border-radius: 5px;
     border: 2px solid #000;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pokemon__image{
