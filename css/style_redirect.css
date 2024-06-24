@@ -217,7 +217,7 @@ main{
 .content{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     height: 90%;
     margin-top: 10%;
    
@@ -268,7 +268,7 @@ main{
     border: 2px solid #000;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    width: 70%;
+    width: 60%;
     padding-left: 5%;
     text-transform: capitalize;
 }
@@ -411,6 +411,9 @@ main{
     }
     .carac{
         padding-bottom: 10px;
+    }
+    .cry{
+        width: 40%;
     }
     .nome_habilidade, .tipo_habilidade, .nome_ataque, .nome_stat, .name, .sprite::before, .numero, .nome, .types, .cry, .weight{
         font-size: 3vw;

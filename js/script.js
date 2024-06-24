@@ -68,7 +68,7 @@ const renderPokemons = async (amount, start) => {
         const pokeNumber =  start + 1 + index;
         const format_type = types[index];
         const pokeSprite = shiny == true? IMG_URL+"shiny/"+String(pokeNumber)+".gif" : IMG_URL+String(pokeNumber)+".gif";
-        poke.innerHTML = `<div class="image"> <img src="${pokeSprite}" alt="pokemon" class="pokemon_image"> </div> <div class="poke-name">${String(pokeNumber)+" - "+pokemon.name}</div> ${format_type}`;
+        poke.innerHTML = `<div class="image"> <img src="${pokeSprite}" alt="pokemon" class="pokemon_image"> </div> <div class="poke-name">${String(pokeNumber)+" - "+(pokemon.name).replace("-", " ")}</div> ${format_type}`;
         listaI.appendChild(poke);
         poke.addEventListener("click", (e)=> {
             e.preventDefault();

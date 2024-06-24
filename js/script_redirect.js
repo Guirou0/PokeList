@@ -104,9 +104,9 @@ const renderNameNumber = (id, name) => {
     const nome = document.querySelector(".nome");
 
     numero.innerText = String(id);
-    nome.innerText = name;
+    nome.innerText = name.replace("-", " ");
 
-    document.querySelector(".textinfo").innerText = name;
+    document.querySelector(".textinfo").innerText = name.replace("-", " ");
 }
 
 const renderTypes = (types) => {
