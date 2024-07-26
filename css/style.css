@@ -123,7 +123,7 @@ main{
 }
 
 .prev{
-    background-image: url("/images/chevron_left.png");
+    background-image: url("../images/chevron_left.png");
     background-position: 50%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -131,7 +131,7 @@ main{
 }
 
 .next{
-    background-image: url("/images/chevron_right.png");
+    background-image: url("../images/chevron_right.png");
     background-position: 50%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -234,7 +234,7 @@ main{
     left: 4px;
     bottom: 4px;
     background-color: #DC143C;
-    background-image: url("/images/pokeball.png");
+    background-image: url("../images/pokeball.png");
     background-repeat: no-repeat;
     background-position: 25%;
     background-size: contain;
