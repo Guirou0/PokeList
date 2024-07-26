@@ -297,7 +297,7 @@ main{
     background-color: #00BFFF;
     height: max-content;
     border-radius: 10px;
-    background-image: url(/icons/fairy.svg);
+    background-image: url('../icons/fairy.svg');
     background-repeat: no-repeat;
     background-position: 5%;
     background-size: contain;
@@ -313,7 +313,7 @@ main{
     font-size: clamp(1.4vw,1.5vw,1rem);
     border-radius: 5px;
     text-align: left;
-    background-image: url(/images/play_arrow_24dp_FILL0_wght400_GRAD0_opsz24.png), linear-gradient(#DC143C,#F5F5F5);
+    background-image: url('../images/play_arrow_24dp_FILL0_wght400_GRAD0_opsz24.png'), linear-gradient(#DC143C,#F5F5F5);
     background-repeat: no-repeat;
     background-size: contain;
     padding-left: 10%;
