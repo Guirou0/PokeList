@@ -114,13 +114,13 @@ const renderTypes = (types) => {
     const type2 = document.getElementById("type2");
 
     type1.innerText = types[0]["type"]["name"];
-    type1.style.backgroundImage = `url(../icons/${types[0]["type"]["name"]}.svg)`;
+    type1.style.backgroundImage = `url(./icons/${types[0]["type"]["name"]}.svg)`;
     type1.style.backgroundColor = cores[types[0]["type"]["name"]];
 
     if (types.length == 2){
         type2.style.display = "block";
         type2.innerText = types[1]["type"]["name"];
-        type2.style.backgroundImage = `url(../icons/${types[1]["type"]["name"]}.svg)`;
+        type2.style.backgroundImage = `url(./icons/${types[1]["type"]["name"]}.svg)`;
         type2.style.backgroundColor = cores[types[1]["type"]["name"]];
     }
     else{
